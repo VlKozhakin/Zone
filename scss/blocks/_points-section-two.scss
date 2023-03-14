@@ -1,0 +1,36 @@
+.points-section-two {
+    max-height: 588;
+    height: 100%;
+    gap: 35px;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 107px;
+	@include tablet {
+		flex-direction: column;
+		&__img {
+			order: 1;
+		}
+		&__info {
+			order: 2;
+		}
+	}
+
+    &__title {
+        @include text($ff, 700, 4.2rem, 5.5rem, $white);
+    margin-bottom: 30px
+    }
+
+    &__desc {
+        @include text($ff, 400, 1.4rem, 2.6rem, $white);
+    margin-bottom: 30px;
+    }
+
+}
+.points-sectio-two {
+
+    &__info {
+        max-width: 582px;
+    }
+}
+

@@ -1,0 +1,67 @@
+.team-section {
+    margin-bottom: 120px;
+ 
+    &__title {
+        margin-bottom: 30px;
+        text-align: center;
+        @include text($ff, 700, 4.2rem, 5.5rem, $white);
+    }
+
+    &__desc {
+        margin-bottom: 40px;
+        text-align: center;
+        @include text($ff, 400, 1.6rem, 2.1rem, $white);
+    }
+}
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+
+    &__sunny {
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+        text-align: center;
+        padding: 32px;
+    }
+
+    &__alina {
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+        text-align: center;
+        padding: 32px;
+    }
+
+    &__alex {
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+        text-align: center;
+        padding: 32px;
+    }
+
+    &__afroza {
+        background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+        box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+        border-radius: 34px;
+        text-align: center;
+        padding: 32px;
+    }
+}
+.name {
+    @include text($ff, 500, 2.8rem, 3.6rem, $white);
+    margin-bottom: 7px;
+}
+.job {
+    @include text($ff, 400, 1.6rem, 2.1rem, $white);
+    letter-spacing: 0.03em;
+    margin-bottom: 11px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
